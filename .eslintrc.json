@@ -13,19 +13,5 @@
         "import/resolver": {
             "typescript": {}
         }
-    },
-    "overrides": [
-        {
-            "rules": {
-                "@typescript-eslint/naming-convention": [
-                    "error",
-                    {
-                        "selector": "import",
-                        "format": ["camelCase", "PascalCase"]
-                    }
-                ]
-            },
-            "files": "*.tsx"
-        }
-    ]
+    }
 }
